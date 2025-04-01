@@ -21,3 +21,4 @@ df_expanded.to_sql('shopee_items', conn, if_exists='replace', index=False)
 conn.close()
 
 print(df.head())
+
